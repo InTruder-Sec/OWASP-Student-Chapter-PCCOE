@@ -33,7 +33,7 @@ body {
 .Owasp-Bg {
     position: absolute;
     opacity: 0.2;
-    /* top: 300px; */
+    top: 50px;
     width: 808px;
     right: 20px;
 }
