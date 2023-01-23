@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgb(25, 25, 25);
+    align-items: center;
+    color: white;
+    /* overflow-x: hidden; */
+}
+
+.vtNavBar {
+    height: 100vh;
+    position: fixed;
+    width: 6%;
+    background-color: black;
+    padding: 10px 5px 10px 5px;
+}
+
+.logo {
+    width: 190px;
+    height: 190px;
+    margin-left: -50px;
+    margin-top: -60px;
+}
+.owaspDis{
+    position: relative;
+}
+.Owasp-Bg {
+    position: absolute;
+    opacity: 0.2;
+    /* top: 300px; */
+    width: 808px;
+    right: 20px;
+}
+.NavBar{
+    height: 10vh;
+    display: flex;
+    font-family: 'Sofia Sans', sans-serif;
+    align-items: center;
+    margin-right: 100px;
+}
+.NavBar-lst{
+    display: flex;
+    font-size: 18px;
+    flex: 1;
+    list-style-type: none;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    gap: 3rem;
+}
+
+.NavBar li button{
+    padding: 4px 15px;
+    font-family: 'Sofia Sans', sans-serif;
+
+}
