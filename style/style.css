@@ -9,7 +9,7 @@
 }
 
 body {
-    background-color: rgb(15, 15, 15);
+    background-color: rgb(24, 23, 23);
     align-items: center;
     color: white;
     font-family: 'Sofia Sans', sans-serif;
@@ -19,15 +19,17 @@ body {
     height: 100vh;
     position: fixed;
     width: 6%;
+    z-index: 10;
     background-color: black;
     padding: 10px 5px 10px 5px;
 }
 
 .logo {
-    width: 190px;
-    height: 190px;
-    margin-left: -50px;
-    margin-top: -60px;
+    width: 100px;
+    height: 100px;
+    margin-left: -12px;
+    margin-top: 0px;
+    transition: all 0.2s ease-in;
 }
 .owaspDis{
     position: relative;
@@ -37,7 +39,8 @@ body {
     opacity: 0.2;
     top: 50px;
     width: 808px;
-    right: 20px;
+    right: 0px;
+    transition: all 0.2s ease-in;
 }
 .NavBar{
     height: 10vh;
@@ -69,13 +72,15 @@ body {
     color: black;
     font-family: 'Source Code Pro', monospace;
     margin-left: 10%;
+    padding-top: 50px;
 }
 
 .Owasp-Head2 {
     position: absolute;
     margin-left: 10%;
     font-size: 78px;
-    margin-top: 90px;
+    margin-top: 130px;
+    letter-spacing: 10px;
 }
 
 .pccoeHead {
@@ -85,13 +90,13 @@ body {
 
 .pccoe {
     margin-left: 15%;
-    margin-top: 60px;
+    margin-top: 90px;
 }
 
 .stdChap {
     font-size: 55px;
     margin-left: 20%;
-    margin-top: 30px;
+    margin-top: 35px;
     letter-spacing: 0.3px;
 }
 
@@ -113,8 +118,59 @@ body {
     border-radius: 4px;
     transition: 0.6s;
     padding: 10px 20px;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 .contact-us:hover {
     background-color: #d5b019;
+    cursor: pointer;
+}
+.pic{
+    position: fixed;
+    height: 50px;
+    width: 50px;
+    left: 12px;
+    transition: all 0.2s ease-in;
+    z-index: 10;
+}
+
+
+.pic_1{
+    bottom: 20px;
+ 
+}
+
+.pic_2{
+    bottom: 90px;
+    height: 45px;
+    width: 45px;
+    left: 16px;
+}
+
+.pic_3{
+    bottom: 160px;
+    left: 15px;
+}
+
+.pic_4{ 
+    bottom: 230px;
+}
+
+.pic_1:hover,
+.pic_2:hover,
+.pic_3:hover,
+.pic_4:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.logo:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.wrapper:hover img{
+    opacity: 1;
+}
+
+.wrapper img:hover{
+    opacity:0.2 ;
 }
