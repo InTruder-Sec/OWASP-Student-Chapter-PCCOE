@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Sofia+Sans&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
 * {
     box-sizing: border-box;
     margin: 0px;
@@ -7,10 +9,10 @@
 }
 
 body {
-    background-color: rgb(25, 25, 25);
+    background-color: rgb(15, 15, 15);
     align-items: center;
     color: white;
-    /* overflow-x: hidden; */
+    font-family: 'Sofia Sans', sans-serif;
 }
 
 .vtNavBar {
@@ -42,7 +44,8 @@ body {
     display: flex;
     font-family: 'Sofia Sans', sans-serif;
     align-items: center;
-    margin-right: 100px;
+    right: 5%;
+    position: fixed;
 }
 .NavBar-lst{
     display: flex;
@@ -58,5 +61,60 @@ body {
 .NavBar li button{
     padding: 4px 15px;
     font-family: 'Sofia Sans', sans-serif;
+    
+}
 
+.Owasp-Head {
+    font-size: 130px;
+    color: black;
+    font-family: 'Source Code Pro', monospace;
+    margin-left: 10%;
+}
+
+.Owasp-Head2 {
+    position: absolute;
+    margin-left: 10%;
+    font-size: 78px;
+    margin-top: 90px;
+}
+
+.pccoeHead {
+    margin-top: -30px;
+    margin-left: 15%;
+}
+
+.pccoe {
+    margin-left: 15%;
+    margin-top: 60px;
+}
+
+.stdChap {
+    font-size: 55px;
+    margin-left: 20%;
+    margin-top: 30px;
+    letter-spacing: 0.3px;
+}
+
+.text {
+    width: 40vw;
+    margin-left: 10%;
+    margin-top: 30px;
+    font-size: 18px;
+}
+
+.contact-us {
+    background-color: #dd3737;
+    border-width: 0px;
+    color: whitesmoke;
+    height: 50px;
+    width: 155px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    border-radius: 4px;
+    transition: 0.6s;
+    padding: 10px 20px;
+    margin-top: 20px;
+}
+.contact-us:hover {
+    background-color: #d5b019;
 }
