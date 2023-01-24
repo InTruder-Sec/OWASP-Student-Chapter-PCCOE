@@ -401,6 +401,7 @@ body {
     background-color: rgb(24, 23, 23);
     width: 100%;
     height: 5000px;
+    padding-left: 70px;
 }
 
 
@@ -419,9 +420,43 @@ body {
     margin-top: 380px;
     letter-spacing: 10px;
 }
-.team-members{
+.team-lead{
+    letter-spacing: 5px;
+}
+.team-members-1{
+    margin-top: 5rem;
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+}
+.ctf-head{
+    display: flex;
+    align-items: center;
     justify-content: center;
+    gap: 4rem;
+    flex-wrap: wrap;
+}
+.ms-team{
+    display: flex;
+    gap: 3rem;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.design-team{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 3rem;
+    flex-wrap: wrap ;
+}
+.management-team{
+    display: flex;
+    gap: 4rem;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 .card {
     background-color: #222831;
@@ -446,7 +481,7 @@ body {
     border-radius: 50%;
     border: 5px solid #272133;
     margin-top: 20px;
-    box-shadow: 0 10px 50px rgba(235, 25, 110, 1);
+    box-shadow: 0 10px 50px rgb(113, 106, 106);
 }
 
 
