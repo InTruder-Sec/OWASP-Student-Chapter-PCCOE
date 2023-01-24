@@ -2,12 +2,16 @@ $(window).scroll(function() {
     var $window = $(window);
 
     var scroll = $window.scrollTop() + ($window.height() / 3);
+    // console.log(scroll);
 
     if(parseInt(scroll) > 800 && parseInt(scroll) < 2510){
         document.querySelector('.vtNavBar').style.backgroundColor = "rgb(24, 23, 23)";
-    } else if(parseInt(scroll)> 2510) {
+    } else if(parseInt(scroll)> 2510 && parseInt(scroll) < 6065) {
         document.querySelector('.vtNavBar').style.backgroundColor = "black";
-    } else{
+    }else if(parseInt(scroll)> 6065){
+        document.querySelector('.vtNavBar').style.backgroundColor = "rgb(24, 23, 23)";
+    }
+     else{
         document.querySelector('.vtNavBar').style.backgroundColor = "black";
     }
 

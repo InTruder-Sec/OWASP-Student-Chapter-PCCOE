@@ -1,13 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Sofia+Sans&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
 
+html {
+    scroll-behavior: smooth;
+  }
 * {
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
 }
+::-moz-selection {
+    color: white;
+    background-color: red;
+}
 
+::selection {
+    color: white;
+    background-color: red;
+}
 body {
     background-color: rgb(24, 23, 23);
     align-items: center;
@@ -207,6 +219,7 @@ body {
 .custom-shape-divider-top-1674489526 .shape-fill {
     fill: rgb(24, 23, 23);
 }
+
 .events{
     margin-top: 50px;
     background-color: black;
@@ -400,8 +413,9 @@ body {
 .team {
     background-color: rgb(24, 23, 23);
     width: 100%;
-    height: 5000px;
+    height: fit-content;
     padding-left: 70px;
+    padding-bottom: 50px;
 }
 
 
@@ -596,3 +610,184 @@ body {
     transition: all 265ms ease-in;
 }
   
+ .contact{
+    background-color: black;
+    width: 100vw;
+    height: fit-content;
+    padding-bottom: 10rem;
+}
+
+.cont{
+    color: rgb(24, 23, 23);
+}
+
+.contact-head{
+    padding-top: 350px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.down {
+    display: none;
+}
+
+
+
+.contact-div {
+    background-color: white;
+    position: relative;
+    width: 31%;
+    padding-bottom: 30px;
+    margin-left: 55%;
+    margin-top: -300px;
+    height: 65vh;
+    border-radius: 7px;
+}
+
+.form {
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.text-head {
+    padding-top: 15px;
+    padding-left: 30px;
+    color: black;
+    font-size: 80px;
+    font-weight: 300;
+    font-family: 'Dosis', sans-serif;
+}
+
+label {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 20px;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 15px;
+    color: black;
+}
+
+
+
+.left-label {
+    position: absolute;
+    margin-left: 40px;
+}
+
+.left-holder {
+    position: absolute;
+    margin-top: 45px;
+    height: 30px;
+    margin-left: 43px;
+    border-top: 0px;
+    border-left: 0px;
+    width: 35%;
+    font-size: 15px;
+    border-right: 0px;
+    border-color: rgb(250, 36, 36);
+    
+}
+
+input:focus {
+    outline: none;
+}
+
+.email-input {
+    width: 70% !important;
+    margin-top: 40px;
+    font-size: 15px;
+}
+
+.input-div {
+    margin-top: 45px;
+    font-size: 15px;
+    height: 30px;
+    width: 35%;
+    margin-left: 18px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-color: rgb(250, 36, 36);
+}
+
+.submit-button:hover {
+    background-color: rgb(217, 208, 36);
+    transition: 0.8s;
+    cursor: pointer;
+}
+
+.submit-button {
+    background-color: rgb(250, 36, 36);
+    border: 0px;
+    border-radius: 4px;
+    transition: 0.8s;
+    width: 100px;
+    height: 40px;
+    margin-left: 18px;
+    margin-top: 15px;
+}
+
+.footer{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.5rem;
+    padding-bottom: 1rem;
+}
+.foot-img{
+    margin-top: 2rem;
+    width: 250px;
+    height: 80px;
+}
+
+.foot-lst{
+    display: flex;
+    list-style-type: none;
+    gap: 5rem;
+    font-size: 15px;
+}
+
+.hr{
+    width: 500px;
+}
+
+
+
+.foot-d{
+    display: flex;
+    gap: 4rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.foot-pic{
+    height: 50px;
+    width: 40px;
+}
+
+.foot-pic:hover{
+    scale: (1.1);
+}
+.foot-text{
+    letter-spacing: 1px;
+    margin-top: 2rem;   
+}
+
+.foot-item{
+    transition: all 0.3s ease-in;
+}
+
+.foot-item:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+} 
+a{
+    text-decoration: none;
+    color: white;
+}
