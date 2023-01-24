@@ -5,6 +5,7 @@
 
 html {
     scroll-behavior: smooth;
+    overflow-x: hidden;
   }
 * {
     box-sizing: border-box;
@@ -25,7 +26,7 @@ body {
     align-items: center;
     color: white;
     font-family: 'Sofia Sans', sans-serif;
-    overflow-x: hidden;
+    overflow-x: hidden !important;
 }
 
 .vtNavBar {
@@ -203,8 +204,8 @@ body {
     position: absolute;
     /* top: 500px; */
     left: 80px;
-    width: 100%;
-    overflow: hidden;
+    width: 95%;
+    overflow-x: hidden;
     line-height: 0;
 }
 
@@ -223,7 +224,7 @@ body {
 .events{
     margin-top: 50px;
     background-color: black;
-    height: 1470px;
+    height: 1465px;
     position: relative;
 }
 
@@ -264,7 +265,7 @@ body {
 
 .eventsDiv {
     position: absolute;
-    left: 48%;
+    left: 45%;
     top: 200px;
 }
 
@@ -311,7 +312,8 @@ body {
 
 .flip {
     transform: scale(-1, 1);
-    margin-top: 600px;
+    width: 100%;
+    margin-left: -80px;
 } 
 
 .flip .shape-fill {
@@ -405,7 +407,7 @@ body {
 
 .location2 {
     display: inline-block;
-    margin-left: 60px;
+    margin-left: 55px;
     margin-top: 30px;
 }
 
@@ -790,4 +792,54 @@ input:focus {
 a{
     text-decoration: none;
     color: white;
+}
+
+
+@media screen and (max-width: 1430px) {
+    .eventsDiv {
+        margin-left: -10%;
+    }
+}
+
+@media screen and (max-width:1335px) {
+    .contact-head {
+        padding-top: 100px;
+    }
+
+    .contact-div {
+        margin-top: 80px;
+        width: 40%;
+        margin-left: 35%;
+    }
+}
+
+@media screen and (max-width: 1180px) {
+    .eventsDiv {
+        margin-left: -15%;
+    }
+}
+
+@media screen and (max-width: 1122px) {
+    .eventsDiv {
+        margin-top: 300px;
+    }
+    .events {
+        height: 1800px;
+    }
+    .eventsHead1 {
+        padding-top: 175px;
+    }
+    .eventsHead2 {
+        margin-top: 255px;
+    }
+    .eventsDiv {
+        margin-left: -30%;
+    }
+    .Owasp-Bg {
+        right: -90px;
+    }
+    .contact-div {
+        margin-left: 25%;
+        width: 50%;
+    }
 }
