@@ -834,7 +834,14 @@ a{
         margin-left: 0px;
     }
     .Owasp-Head{
-        padding-top: 110px;
+        padding-top: 158px;
+    }
+    .Owasp-Head2{
+        margin-top: 236px;
+        font-size: 88px;
+    }
+    .hh{
+        margin-top: -132px;
     }
     .text{
         width: 60vw;
@@ -853,13 +860,46 @@ a{
     }
     .Owasp-Bg {
         right: -90px;
+        top: -2px;
+        width: 718px;
     }
     .contact-div {
         margin-left: 25%;
         width: 50%;
     }
     .vtNavBar {
-        display: none;
+        display: block;
+        width: 100vw;
+        position: fixed;
+        height: 70px;
+        z-index: 10;
+        bottom: 0px;
+    }
+    .logo{
+        bottom: -14px;
+        position: fixed;
+        width: 80px;
+        height: 83px;
+        left: 16px;
+    }
+    .pic_1 {
+        left: 92%;
+        bottom: auto;
+    }
+    .pic_2 {
+        bottom: 13px;
+        left: 87%;
+    }
+    .pic_3 {
+        bottom: 11px;
+        left: 81.4%;
+    }
+    .pic_4 {
+        bottom: 13px;
+        left: 75.7%;
+    }
+    .footer{
+        padding-bottom: 5rem;
     }
 }
 
@@ -877,24 +917,9 @@ a{
     }
 }
 
-@media screen and (max-width:480px) {
-    .NavBar{
-        display: none;
-    }
-    .text{
-        width: 96vw;
-        margin-left: 4%;
-    }
-    .Owasp-Bg{
-        width: 697px;
-        top: -72px;
-        opacity: 0.1;
-    }
-    .stdChap{
-        font-size: 45px;
-        margin-left: 8%;
-    }
-    .Owasp-Head{
-        font-size: 102px;
+
+@media screen and (max-width:320px) {
+    body{
+        zoom: 0.6;
     }
 }
