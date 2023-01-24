@@ -203,8 +203,8 @@ body {
 .custom-shape-divider-top-1674489526 {
     position: absolute;
     /* top: 500px; */
-    left: 80px;
-    width: 95%;
+    /* left: 80px; */
+    width: 100%;
     overflow-x: hidden;
     line-height: 0;
 }
@@ -759,7 +759,9 @@ input:focus {
     width: 500px;
 }
 
-
+.flip{
+    left: 80px;
+}
 
 .foot-d{
     display: flex;
@@ -810,6 +812,8 @@ a{
         margin-top: 80px;
         width: 40%;
         margin-left: 35%;
+        height: fit-content;
+        /* padding-bottom: 30px; */
     }
 }
 
@@ -822,6 +826,12 @@ a{
 @media screen and (max-width: 1122px) {
     .eventsDiv {
         margin-top: 300px;
+    }
+    .flip{
+        margin-left: 0px;
+    }
+    .custom-shape-divider-top-1674489526{
+        margin-left: 0px;
     }
     .events {
         height: 1800px;
@@ -841,5 +851,44 @@ a{
     .contact-div {
         margin-left: 25%;
         width: 50%;
+    }
+    .vtNavBar {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 920px) {
+    .contact-div{
+        height: fit-content;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .contact-div{
+        height: fit-content;
+        width:fit-content;
+        padding-right: 20px;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .NavBar{
+        display: none;
+    }
+    .text{
+        width: 96vw;
+        margin-left: 4%;
+    }
+    .Owasp-Bg{
+        width: 697px;
+        top: -72px;
+        opacity: 0.1;
+    }
+    .stdChap{
+        font-size: 45px;
+        margin-left: 8%;
+    }
+    .Owasp-Head{
+        font-size: 102px;
     }
 }
