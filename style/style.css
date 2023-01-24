@@ -898,6 +898,9 @@ a{
         bottom: 13px;
         left: 75.7%;
     }
+    .NavBar{
+        height: 7vh;
+    }
     .footer{
         padding-bottom: 5rem;
     }
@@ -917,9 +920,3 @@ a{
     }
 }
 
-
-@media screen and (max-width:320px) {
-    body{
-        zoom: 0.6;
-    }
-}
