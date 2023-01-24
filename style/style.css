@@ -884,7 +884,7 @@ a{
     }
     .pic_1 {
         left: 92%;
-        bottom: auto;
+        bottom: 13px;
     }
     .pic_2 {
         bottom: 13px;
@@ -899,7 +899,7 @@ a{
         left: 75.7%;
     }
     .NavBar{
-        height: 7vh;
+        height: 2vh;
     }
     .footer{
         padding-bottom: 5rem;
