@@ -13,44 +13,51 @@ body {
     align-items: center;
     color: white;
     font-family: 'Sofia Sans', sans-serif;
+    overflow-x: hidden;
 }
 
 .vtNavBar {
     height: 100vh;
     position: fixed;
-    width: 6%;
+    width: 80px;
     z-index: 10;
     background-color: black;
     padding: 10px 5px 10px 5px;
+    transition: all 0.3s ease-out;
 }
 
 .logo {
-    width: 100px;
-    height: 100px;
-    margin-left: -12px;
+    width: 90px;
+    height: 90px;
+    margin-left: -15px;
     margin-top: 0px;
     transition: all 0.2s ease-in;
 }
-.owaspDis{
+
+.owaspDis {
     position: relative;
 }
+
 .Owasp-Bg {
     position: absolute;
     opacity: 0.2;
     top: 50px;
     width: 808px;
-    right: 0px;
+    right: -20px;
     transition: all 0.2s ease-in;
 }
-.NavBar{
+
+.NavBar {
     height: 10vh;
     display: flex;
     font-family: 'Sofia Sans', sans-serif;
     align-items: center;
     right: 5%;
     position: fixed;
+    z-index: 10;
 }
-.NavBar-lst{
+
+.NavBar-lst {
     display: flex;
     font-size: 18px;
     flex: 1;
@@ -61,10 +68,9 @@ body {
     gap: 3rem;
 }
 
-.NavBar li button{
+.NavBar li button {
     padding: 4px 15px;
     font-family: 'Sofia Sans', sans-serif;
-    
 }
 
 .Owasp-Head {
@@ -94,9 +100,9 @@ body {
 }
 
 .stdChap {
-    font-size: 55px;
-    margin-left: 20%;
-    margin-top: 35px;
+    font-size: 64px;
+    margin-left: 18%;
+    margin-top: 40px;
     letter-spacing: 0.3px;
 }
 
@@ -120,57 +126,296 @@ body {
     padding: 10px 20px;
     margin-top: 30px;
 }
+
 .contact-us:hover {
     background-color: #d5b019;
     cursor: pointer;
 }
-.pic{
+
+.pic {
     position: fixed;
     height: 50px;
-    width: 50px;
-    left: 12px;
+    width: 40px;
+    left: 14px;
     transition: all 0.2s ease-in;
     z-index: 10;
 }
 
 
-.pic_1{
+.pic_1 {
     bottom: 20px;
- 
+    
+
 }
 
-.pic_2{
+.pic_2 {
     bottom: 90px;
     height: 45px;
-    width: 45px;
-    left: 16px;
+    width: 35px;
+    left: 18px;
 }
 
-.pic_3{
+.pic_3 {
     bottom: 160px;
-    left: 15px;
+    width: 40px;
+    left: 14px;
 }
 
-.pic_4{ 
+.pic_4 {
     bottom: 230px;
+    width: 50px;
+    left: 10px;
 }
 
 .pic_1:hover,
 .pic_2:hover,
 .pic_3:hover,
-.pic_4:hover{
+.pic_4:hover {
     transform: scale(1.2);
     cursor: pointer;
 }
-.logo:hover{
+
+.logo:hover {
     transform: scale(1.1);
     cursor: pointer;
 }
 
-.wrapper:hover img{
-    opacity: 1;
+.wrapper:hover img {
+    opacity: .5;
 }
 
-.wrapper img:hover{
-    opacity:0.2 ;
+.wrapper img:hover {
+    opacity: 0.2;
+}
+.custom-shape-divider-top-1674489526 {
+    position: absolute;
+    /* top: 500px; */
+    left: 80px;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1674489526 svg {
+    position: relative;
+    display: block;
+    width: calc(204% + 1.3px);
+    height: 221px;
+    
+}
+
+.custom-shape-divider-top-1674489526 .shape-fill {
+    fill: rgb(24, 23, 23);
+}
+.events{
+    margin-top: 50px;
+    background-color: black;
+    height: 1470px;
+    position: relative;
+}
+
+::-webkit-scrollbar{
+    width: 6px;
+    z-index: -10;
+}
+  
+::-webkit-scrollbar-track{
+    border-radius: 10px;
+}
+   
+::-webkit-scrollbar-thumb{
+    background: #dd3737; 
+    border-radius: 15px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background: black; 
+}
+
+.eventsHead1 {
+    font-size: 130px;
+    color: rgb(24, 23, 23);
+    font-family: 'Source Code Pro', monospace;
+    margin-left: 10%;
+    padding-top: 700px;
+}
+
+.eventsHead2 {
+    color: white;
+    position: absolute;
+    margin-left: 10%;
+    font-size: 78px;
+    margin-top: 780px;
+    letter-spacing: 10px;
+}
+
+.eventsDiv {
+    position: absolute;
+    left: 48%;
+    top: 200px;
+}
+
+.eventImg {
+    width: 330px;
+    height: 330px;
+    margin-left: 20px;
+    border-radius: 5px;
+    background-color: blue;
+}
+
+.eventDis1 {
+    height: 100px;
+    width: 330px;
+    background-color: #333333;
+    margin-top: 10px;
+}
+
+
+.eventDis2 {
+    height: 100px;
+    width: 330px;
+    background-color: #404040;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+
+.eventDis3 {
+    height: 100px;
+    width: 330px;
+    background-color: #333333;
+    margin-top: 10px;
+}
+
+.event2 {
+    margin-left: 100%;
+    margin-top: -50px;
+}
+
+.event3 {
+    margin-left: 0%;
+    margin-top: -50px;
+}
+
+.flip {
+    transform: scale(-1, 1);
+    margin-top: 600px;
+} 
+
+.flip .shape-fill {
+    fill: rgb(0, 0, 0);
+}
+
+.design1 {
+    background-color: #dd3737;
+    width: 330px;
+    height: 5px;
+    transition: 0.5s;
+    position: absolute;
+    z-index: 0;
+}
+
+.discription1 {
+    padding-top: 15px;
+    position: absolute;
+}
+
+.disHead1 {
+    margin-left: 30px;
+    font-size: 20px;
+}
+
+.eventDate {
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.location1 {
+    display: inline-block;
+    margin-left: 80px;
+    margin-top: 30px;
+}
+
+
+.design3 {
+    background-color: blue;
+    width: 330px;
+    height: 5px;
+    transition: 0.5s;
+    position: absolute;
+    z-index: 0;
+}
+
+.discription3 {
+    padding-top: 15px;
+    position: absolute;
+}
+
+.disHead3 {
+    margin-left: 30px;
+    font-size: 20px;
+}
+
+.discription3 {
+    padding-top: 15px;
+}
+
+
+
+.design2 {
+    background-color: purple;
+    width: 330px;
+    height: 5px;
+    transition: 0.5s;
+    position: absolute;
+    z-index: 0;
+}
+
+.discription2 {
+    padding-top: 15px;
+    position: absolute;
+    width: 300px;
+}
+
+.disHead2 {
+    margin-left: 30px;
+    font-size: 20px;
+}
+
+.discription2 {
+    padding-top: 15px;
+}
+
+.eventDate2 {
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.location2 {
+    display: inline-block;
+    margin-left: 60px;
+    margin-top: 30px;
+}
+
+
+.team {
+    background-color: rgb(24, 23, 23);
+    width: 100%;
+    height: 5000px;
+}
+
+
+.teamHead1 {
+    font-size: 130px;
+    color: black;
+    font-family: 'Source Code Pro', monospace;
+    margin-left: 13%;
+    padding-top: 300px;
+}
+
+.teamHead2 {
+    position: absolute;
+    margin-left: 13%;
+    font-size: 78px;
+    margin-top: 380px;
+    letter-spacing: 10px;
 }
